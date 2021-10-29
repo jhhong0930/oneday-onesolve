@@ -1,5 +1,7 @@
 ![image (1)](https://user-images.githubusercontent.com/44156173/138339308-7912a3d5-bc9e-4e3f-9e49-f11a2519b310.png)
 
+## 내 풀이
+
 ```java
 package study;
 
@@ -55,4 +57,39 @@ public class ReverseWord {
 
 }
 
+```
+
+## 강의 풀이
+
+```java
+package study;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Practice {
+
+    public static ArrayList<String> solution(String[] str) {
+        ArrayList<String> answer = new ArrayList<>();
+
+        for(String s : str) {
+            String temp = new StringBuilder(s).reverse().toString();
+            answer.add(temp);
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int input = in.nextInt();
+        String[] str = new String[input];
+        for(int i=0; i<input; i++) {
+            str[i] = in.next();
+        }
+        for(String s: solution(str)) {
+            System.out.println(s);
+        }
+    }
+}
 ```
