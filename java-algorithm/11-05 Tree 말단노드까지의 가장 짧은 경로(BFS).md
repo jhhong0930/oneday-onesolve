@@ -1,3 +1,7 @@
+# Tree 말단노드까지의 가장 짧은 경로(BFS)
+
+<img src="https://user-images.githubusercontent.com/44156173/142771542-3a930f03-3c15-4b05-8cb3-ef7cb3ed8b75.png" width="60%">
+
 ```java
 import java.util.*;
 class Node{ 
