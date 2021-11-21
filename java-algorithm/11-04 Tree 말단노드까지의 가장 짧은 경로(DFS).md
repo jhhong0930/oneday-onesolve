@@ -1,5 +1,7 @@
 # Tree 말단노드까지의 가장 짧은 경로(DFS)
 
+<img src="https://user-images.githubusercontent.com/44156173/142771542-3a930f03-3c15-4b05-8cb3-ef7cb3ed8b75.png" width="60%">
+
 <img src="https://user-images.githubusercontent.com/44156173/142771048-10f24e16-fb5f-4fc6-8404-11f8e60d3412.png" width="60%">
 
 
